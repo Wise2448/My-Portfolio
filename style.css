@@ -1,0 +1,136 @@
+body{
+ background: whitesmoke;
+ font-weight:bold;
+ font-family: 'century gothic';
+
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+nav ul li a{
+    color:black;
+    text-decoration:none ;
+}
+nav ul{
+    display:flex;
+    justify-content: end;
+ background: #ffd9a02f;
+ padding:10px;
+ box-shadow:2px 2px 3px black;
+}
+nav:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.nav2 ul{padding:10px;
+ box-shadow:2px 2px 3px black; 
+ justify-content: space-evenly;
+}
+
+li{
+
+    list-style: none;
+    padding:5px;
+    padding-left:50px;
+    outline:0;
+    background:transparent;
+    border:0;
+    color:grey;
+    transition-property: transform, ease-in-out, 0.5s;
+}
+button:hover{
+    color:maroon;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.img{
+    width: 400px;
+    height:400px;
+    margin-top:40px;
+    border-radius:20%;
+    transition-property: transform;
+  transition-duration:0.5s;
+  transition-timing-function: ease-in-out;
+}
+.img:hover{
+    transform:scale(110%);
+}
+#pic{
+    display:flex;
+    margin-top:20px;
+    justify-content: space-evenly;
+}
+#hello{
+   line-height:70px;
+    text-align:center;
+    margin-top:10px;
+    background: #ffd9a02f;
+    padding:50px;
+    box-shadow:2px 2px 3px black;
+    border-radius:50%;
+    scale:90%;
+  transition-property: transform;
+  transition-duration:0.5s;
+  transition-timing-function: ease-in-out;
+}
+#hello:hover{
+    transform:scale(110%);
+ 
+}
+#about{
+    background: #ffd9a02f;
+    padding:20px;
+    box-shadow:2px 2px 3px black;
+    margin-bottom:35px;
+    margin-top:35px;
+    transition-property: transform;
+    transition-duration:0.5s;
+    transition-timing-function: ease-in-out;
+    width:40%
+   
+}
+#about:hover{
+    transform:scale(110%);
+ 
+}
+
+#skills{
+    background: #ffd9a02f;
+    padding:10px;
+    box-shadow:2px 2px 3px black;
+    transition-property: transform;
+    transition-duration:0.5s;
+    transition-timing-function: ease-in-out;
+    width:40%;
+    margin-top:35px;
+   margin-bottom:36px;
+}
+#skills:hover{
+    transform:scale(110%);
+ 
+}
+#skills ul li{
+    list-style: disc;
+}
+#abt{
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+#contact{
+    background: #ffd9a02f;
+    padding:50px;
+    box-shadow:2px 2px 3px black;
+    margin-left:20px;
+    margin-right:20px;
+    transition-property: transform;
+    transition-duration:0.5s;
+    transition-timing-function: ease-in-out;
+}
+#contact:hover{
+    transform:scale(105%)
+}
+#img2{
+    height:25px;
+}
